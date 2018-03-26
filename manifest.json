@@ -1,0 +1,17 @@
+{
+  "name": "Feedly Colorful Placeholders",
+  "version": "1.0",
+  "description": "Use colorful placeholder banners for articles without images.",
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://feedly.com/i/*"],
+      "js": ["colorize.js"]
+    }
+  ],
+  "manifest_version": 2
+}
