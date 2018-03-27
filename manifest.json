@@ -14,5 +14,11 @@
     }
   ],
   "options_page": "options.html",
+  "icons": {
+    "16": "assets/feedly-colors_16.png",
+    "32": "assets/feedly-colors_32.png",
+    "48": "assets/feedly-colors_48.png",
+    "128": "assets/feedly-colors_128.png"
+  },
   "manifest_version": 2
 }
